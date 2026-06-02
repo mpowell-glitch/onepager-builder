@@ -688,7 +688,7 @@ async function sendMessage() {
 
   showTyping();
 
-  ttry {
+  try {
   const formData = new URLSearchParams();
   formData.append('data', JSON.stringify({ messages }));
 
